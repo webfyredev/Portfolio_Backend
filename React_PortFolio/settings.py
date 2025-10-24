@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['portfolio-backend-1-2dt3.onrender.com', 'localhost', '127.0.0.1']
 CSRF_TRUSTED_ORIGINS = [
     'https://portfolio-backend-1-2dt3.onrender.com',
+    'https://react-portfolio-website-one-theta.vercel.app/'
 ]
 
 # Application definition
