@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-m09w1nn#0r2cu80byv-a&b%au^8rv8xj#b_57a5_!#nwgs@_54
 DEBUG = True
 
 ALLOWED_HOSTS = ['portfolio-backend-1-2dt3.onrender.com', 'localhost', '127.0.0.1']
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://portfolio-backend-1-2dt3.onrender.com',
+]
 
 # Application definition
 
